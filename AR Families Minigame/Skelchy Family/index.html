@@ -240,7 +240,7 @@
     <a-scene embedded arjs='debugUIEnabled: false; sourceType: webcam' vr-mode-ui='enabled: false'>
         <a-entity cursor="rayOrigin: mouse" raycaster="objects: .intersectable; useWorldCoordinates: true;"></a-entity>
 
-        <a-marker-camera id="marker" preset="hiro" emitevents="true" for_a_marker>
+        <a-marker-camera preset='custom' type='pattern' url='https://raw.githubusercontent.com/JS29G/AR-Families-Minigame/main/Patterns/pattern-Skelchy_Video.patt' emitevents="true" for_a_marker>
             <a-entity position="0 0 2" scale="0.5 0.5 0.5">
                 <!-- Header -->
                 <a-text id="Header" value="Do you know the Skelchy Family?" position="0 1 -4.5" rotation="-90 0 0" align="center"></a-text> 
